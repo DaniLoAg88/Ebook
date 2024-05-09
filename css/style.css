@@ -98,10 +98,17 @@ body {
 
 .header{
     height: 100vh;
-    background-color: #333;
     flex-direction: column;
 }
 
+.footer{
+    height: 500px;
+}
+
+.header,
+.footer{
+    background-color: #333;
+}
 .ebook{
     margin-top: 100px;
 }
@@ -148,6 +155,11 @@ body {
     font-size: 12px;
     font-weight: 700;
     text-transform: uppercase; /*Convierte todo el texto a mayúsculas*/
+}
+
+.boton:hover{
+    cursor: pointer;
+    background-color: rgb(7, 53, 37);
 }
 
 .margen-top{
@@ -214,4 +226,36 @@ body {
 
 .ajuste{
     overflow: hidden;
+}
+
+.caja-blanca{
+    background-color: white;
+    height: 450px;
+    width: 350px;
+    border: rgb(219, 215, 215) solid 0.25px;
+}
+
+.margen-xy-25{
+    margin: 25px;
+}
+
+.precio{
+    color: #333;
+    font-size: 70px;
+    font-weight: 700;
+    line-height: 1;
+    margin: 20px;
+}
+
+.precio sup{
+    font-size: 25px;
+    font-weight: 400px;
+}
+
+.precio-descripcion{
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 24px;
+    margin-bottom: 25px;
+    text-transform: uppercase;
 }
